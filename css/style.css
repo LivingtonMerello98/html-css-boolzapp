@@ -1,6 +1,6 @@
 /*import css files*/
-@import url('./utility.css');
-@import url('./components.css');
-@import url('./responsive.css');
+@import url('./partials/utility.css');
+@import url('./partials/commons.css');
+@import url('./partials/responsive.css');
 
 

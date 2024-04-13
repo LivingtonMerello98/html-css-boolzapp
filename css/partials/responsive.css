@@ -1,0 +1,73 @@
+/*mediaquerie mobile*/
+
+
+/* fino a che la viewport sarà di 576px sarà con questo layout---> mobile */
+
+
+/**********
+responsive
+**********/
+
+
+/* extra small */
+
+/*---------------tablet viewport-----------------------*/
+@media screen and (min-width: 576px){
+
+    body{
+        background-color: blanchedalmond;
+    }
+  
+    .container{
+        display: flex; /*affianca i contenuti */
+        width: 80%;
+        height: 80%;
+        margin: auto;
+    }
+  
+    .sidebar{
+        display: flex;
+        flex-direction: column;
+        flex-shrink: 0;
+        /* overflow: hidden; */
+        
+    }
+
+
+    /* display none tablet viewport */
+    .notification{
+        background-color:rgb(145, 140, 134);
+        display: none;
+    }
+    .search{
+        background-color:rgb(255, 221, 177);
+        display: none;
+    }
+    
+    .chats{
+        background-color:burlywood;
+        overflow-y: auto;
+    }
+  
+  }
+  
+  /* -------------------desktop  viewport -----------------------------*/
+  @media screen and (min-width: 992px){
+    body{
+        background-color: rgb(251, 118, 118);
+    }
+  
+    .sidebar{
+        width: 350px;
+    }
+    
+    .notification{
+        background-color:rgb(145, 140, 134);
+        display: block;
+    }
+    .search{
+        background-color:rgb(255, 221, 177);
+        display: block;
+    }
+  }
+  

@@ -1,18 +1,4 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box; 
-}
 
-body{
-    font-size: 16px;
-    font-weight: 300;
-    font-style: normal;
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    background: linear-gradient(to bottom, #029588 22%, #DCDBD2 22%);;
-}
 
 
 /*text size*/

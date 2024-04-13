@@ -1,0 +1,118 @@
+
+/*mobile first*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body{
+  height: 100vh;
+  display: flex;
+  background-color: yellow;
+  /* background: linear-gradient(to bottom, #029588 22%, #DCDBD2 22%);; */
+
+}
+
+.container{
+  width: 100%;
+  display: flex;
+  background-color: aqua;
+}
+
+.sidebar{
+  display: none;
+  background-color: aquamarine;
+}
+
+.content{
+  flex-grow: 1;
+  overflow: hidden;
+  background-color:beige;
+}
+
+header{
+  background-color:cadetblue;
+  height: 70px;
+  flex-shrink: 0;
+}
+
+.conversation{
+  height: calc(100% - 140px);
+  overflow-y: auto;
+}
+
+.message{
+  height: 70px;
+  background-color: cadetblue;
+  flex-shrink: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*reset style*/
+ul{
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+}
