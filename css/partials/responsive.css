@@ -33,7 +33,7 @@ responsive
         
     }
 
-
+    /* side-bar side */
     /* display none tablet viewport */
     .notification{
         background-color:rgb(145, 140, 134);
@@ -48,6 +48,38 @@ responsive
         background-color:burlywood;
         overflow-y: auto;
     }
+
+
+
+    /*content side*/
+    .conversation{
+        height: calc(100% - 25%);
+        
+        background-image: url("/assets/img/mine.jpg");
+        overflow-y: auto;
+      }
+
+    .message{
+        height:auto;
+        background-color: var(--header-color);
+        flex-shrink: 0;
+      }
+      
+      .message form{
+        width: 90%;
+        padding: 15px 0px;
+        height: auto;
+      }
+      
+      .message #inputText {
+        border: 0px solid;
+        border-radius:5px;
+        padding: 5px;
+        width: 100%;
+        height: 2.5rem; 
+        font-size: 14px;
+        color: var(--thin-font);
+      }
   
   }
   

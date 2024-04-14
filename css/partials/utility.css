@@ -24,6 +24,11 @@
     display: flex;
 }
 
+.flex-col{
+    display: flex;
+    flex-direction: column;
+}
+
 .j-between{
     justify-content: space-between;
 }
@@ -46,7 +51,7 @@
 
 /*border*/
 .border{
-    border: 1px solid white;
+    border: 0.1px solid #D6D6D6;
 }
 /*list style*/
 .unstyled-list {
