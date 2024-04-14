@@ -33,8 +33,7 @@ responsive
         
     }
 
-    /* side-bar side */
-    /* display none tablet viewport */
+    /* side-bar */
     .notification{
         background-color:rgb(145, 140, 134);
         display: none;
@@ -49,9 +48,16 @@ responsive
         overflow-y: auto;
     }
 
+    .chat-name{
+        display: none;
+    }
+
+    #side-bar-icon{
+        display: none;
+    }
 
 
-    /*content side*/
+    /*content*/
     .conversation{
         height: calc(100% - 25%);
         
@@ -60,7 +66,7 @@ responsive
       }
 
     .message{
-        height:auto;
+        min-height:15%;
         background-color: var(--header-color);
         flex-shrink: 0;
       }
@@ -76,10 +82,11 @@ responsive
         border-radius:5px;
         padding: 5px;
         width: 100%;
-        height: 2.5rem; 
+        height: 3rem; 
         font-size: 14px;
         color: var(--thin-font);
       }
+
   
   }
   
@@ -88,18 +95,31 @@ responsive
     body{
         background: linear-gradient(to bottom, #029588 22%, #DCDBD2 22%);
     }
-  
+
+
+    /* side-bar side */
     .sidebar{
         width: 350px;
     }
     
     .notification{
         background-color:var(--notification-color);
-        display: block;
+        display: flex;
     }
     .search{
-        background-color:rgb(255, 221, 177);
+        background-color:white;
+        display: flex;
+    }
+
+    .chat-name{
         display: block;
     }
+    /* ***da rivedere*** */
+    #side-bar-icon{
+        display: flex;
+    }
+
+    /*content side*/
+    
   }
   
