@@ -226,6 +226,9 @@
 .my-mx-5-10{
     margin:5px 10px;
 }
+.my-mx-30-30{
+    margin:30px 30px;
+}
 
 .mx-5 {
     margin: 0px 5px;
@@ -443,3 +446,15 @@
     overflow: scroll;
     overflow-x: hidden;
 }
+
+/*min width*/
+.grow-1{
+    flex-grow: 1;
+}
+
+.mw-30{
+    min-width: 30px;
+    height: 10px;
+    background-color: black;
+}
+
