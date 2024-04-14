@@ -3,4 +3,10 @@
 @import url('./partials/commons.css');
 @import url('./partials/responsive.css');
 
-
+/*color var*/
+:root{
+    --header-color: #EAEAEA;
+    --notification-color: #8FDAFC;
+    --icon-color: #B1B1B1;
+    --thin-font: rgb(141, 141, 141) ;
+}

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
@@ -63,8 +64,20 @@
     </div>
     <!-- right-col -->
     <div class="content">
-        <header class="header">header</header>
+        <header class="header d-flex j-between ">
+            <div class="profile-name my-mx-5-10 d-flex align-center">
+                <div class="avatar-container">
+                    <img src="./assets/img/avatar_1.jpg" class="avatar">
+                </div>
+                <div class="chat-name my-mx-5">
+                    <div class="name">Michele</div>
+                    <span class="access">Ultimo accesso oggi alle 16:26</span>
+                </div>
+            </div>
+            <div class=""></div>
+        </header>
         <ul class="conversation">
+            <!-- <li>message</li>
             <li>message</li>
             <li>message</li>
             <li>message</li>
@@ -97,10 +110,13 @@
             <li>message</li>
             <li>message</li>
             <li>message</li>
-            <li>message</li>
-            <li>message</li>
+            <li>message</li> -->
         </ul>
-        <div class="message">message</div>
+        <div class="message d-flex align-center justify-center">
+            <form>
+                <input type="text" id="inputText" name="inputText" placeholder="Scrivi un messaggio">
+            </form>
+        </div>
     </div>
    </div>
 </body>

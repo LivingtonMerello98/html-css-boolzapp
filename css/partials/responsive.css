@@ -15,7 +15,7 @@ responsive
 @media screen and (min-width: 576px){
 
     body{
-        background-color: blanchedalmond;
+        background: linear-gradient(to bottom, #029588 22%, #DCDBD2 22%);
     }
   
     .container{
@@ -54,7 +54,7 @@ responsive
   /* -------------------desktop  viewport -----------------------------*/
   @media screen and (min-width: 992px){
     body{
-        background-color: rgb(251, 118, 118);
+        background: linear-gradient(to bottom, #029588 22%, #DCDBD2 22%);
     }
   
     .sidebar{
@@ -62,7 +62,7 @@ responsive
     }
     
     .notification{
-        background-color:rgb(145, 140, 134);
+        background-color:var(--notification-color);
         display: block;
     }
     .search{

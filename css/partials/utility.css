@@ -22,14 +22,27 @@
 /*flex*/
 .d-flex{
     display: flex;
-    flex-wrap: wrap;
 }
 
 .j-between{
     justify-content: space-between;
 }
 
+/*align-items*/
+.align-center{
+    align-items: center;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+
 /*row*/
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
 
 /*border*/
 .border{
@@ -197,9 +210,16 @@
     padding: 80px 0px;
 }
 
-/*px py combined class*/
+/*px py/ my-mx combined class*/
 .pxy-60-30{
     padding: 60px 30px;
+}
+
+.my-mx-5{
+    margin:5px 5px;
+}
+.my-mx-5-10{
+    margin:5px 10px;
 }
 
 .mx-5 {
@@ -405,6 +425,12 @@
 } 
 
 /*square*/
+
+.square{
+    width: 70px;
+    height: 70px;
+    background-color: rgb(107, 107, 107);
+}
 
 /*overflow*/
 
